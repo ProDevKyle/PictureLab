@@ -98,5 +98,15 @@ public class IntArrayWorker
       }
     }
   }
+
+  public int getColTotal(int num)
+  {
+    int total = 0;
+    for(int i = 0;i<matrix.length; i++)
+    {
+        total += matrix[i][num];
+    }
+    return total;
+  }
  
 }
